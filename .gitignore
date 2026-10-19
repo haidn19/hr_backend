@@ -7,6 +7,14 @@ logs/
 !.env.example
 .env.local/
 
+# Private keys and Java keystores must never be committed.
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
 # Local vulnerability reports may reveal the dependency inventory.
 dependency-check-report.*
 .mvn/wrapper/maven-wrapper.jar
