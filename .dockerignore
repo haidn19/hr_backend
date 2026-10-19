@@ -1,0 +1,8 @@
+.env
+.git
+.mvn
+target
+logs
+*.log
+README.md
+docker-compose.yml
